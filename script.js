@@ -3,7 +3,7 @@ const snake = document.getElementById('pixel2')
 const gameContainer = document.getElementById('gameContainer')
 let row = 1, column = 1
 let foodItemList = []
-const score = document.getElementById('score')
+const score = document.getElementById('pointsEarned')
 
 function moveSnakeToRight() {
     eatFood()
