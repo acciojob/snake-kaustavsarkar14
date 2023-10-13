@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#gameContainer {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: black;
+    position: relative;
+}
+.snakeBodyPixel {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+}
+.food {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #03ff1c;
+    position: absolute;
+}
